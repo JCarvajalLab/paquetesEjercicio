@@ -1,0 +1,243 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Estilos para la barra de navegación */
+.nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav__lista {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav__item {
+  margin-right: 20px;
+}
+
+.nav__enlace {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav__enlace:hover {
+  color: #ccc;
+}
+
+/* Estilos para la sección de destinos */
+.destinos {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.destinos__titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destinos__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destinos__item {
+  margin: 20px;
+  width: 25%;
+}
+
+.destinos__imagen {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.destinos__nombre {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.destinos__descripcion {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Estilos para la sección de paquetes */
+.paquetes {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.paquetes__titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.paquetes__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paquetes__item {
+  margin: 20px;
+  width: 25%;
+}
+
+.paquetes__imagen {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.paquetes__nombre {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.paquetes__descripcion {
+  font-size: 14px;
+  color: #666;
+}
+
+.paquetes__precio {
+  font-size: 18px;
+  font-weight: bold;
+  color: #337ab7;
+}
+
+/*boton comprar*/
+.botones {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #faa05a;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.botones:hover {
+  opacity: 0.7;
+}
+
+/* Estilos para el formulario de contacto */
+.contacto {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.contacto__titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contacto__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto__label {
+  margin-bottom: 10px;
+}
+
+.contacto__input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contacto__textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contacto__boton {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer__texto {
+  margin-bottom: 0;
+}
+
+.footer__redes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__red {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
